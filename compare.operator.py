@@ -1,0 +1,8 @@
+a=int (input("number1"))
+b=int (input("number2"))
+print("The condition is ",a==b)
+print("The condition is ",a!=b)
+print("The condition is ",a>b)
+print("The condition is ",a<b)
+print(a>b)
+print(a<b)

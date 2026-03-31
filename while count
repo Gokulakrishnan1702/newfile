@@ -1,0 +1,7 @@
+count=0
+battery=0
+
+while battery < 100:
+    battery=battery+10 # assume each step charges 10%
+    count+=1
+    print("It took", count, "charging steps to reach 100%")
